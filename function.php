@@ -1,6 +1,6 @@
 <?php
 
-function connectDb()
+function connectDatabase()
 {
     try
     {return new PDO(DSN, USER, PASSWORD);
